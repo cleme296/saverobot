@@ -1,0 +1,77 @@
+08:23:48.676 INFO - Using data dir '/home/pi/Blynk'
+08:23:52.375 INFO - Region : local. Host : 10.29.200.64.
+08:23:55.430 INFO - Initializing gmail smtp mail transport. Username : example@gmail.com. SMTP host : smtp.gmail.com:587
+08:23:55.569 INFO - Didn't find custom user certificates.
+08:23:55.577 INFO - Didn't find Let's Encrypt certificates.
+08:23:55.578 WARN - You didn't specified 'server.host' or 'contact.email' properties in server.properties file. Automatic certificate generation is turned off. Please specify above properties for automatic certificates retrieval.
+08:23:55.578 WARN - ATTENTION. Server certificate paths (cert : '/home/pi', key : '/home/pi') not valid. Using embedded server certs and one way ssl. This is not secure. Please replace it with your own certs.
+08:23:58.436 INFO - Hardware plain tcp/ip server listening at 8442 port.
+08:23:58.445 INFO - Hardware SSL server listening at 8441 port.
+08:23:58.451 INFO - Application server listening at 8443 port.
+08:23:58.454 INFO - HTTP API and WebSockets server listening at 8080 port.
+08:23:58.457 INFO - HTTPS API, WebSockets and Admin page server listening at 9443 port.
+08:23:58.461 INFO - Mqtt hardware server listening at 8440 port.
+08:33:10.237 INFO - admin@blynk.cc Blynk-app joined.
+08:50:34.438 INFO - Using data dir '/home/pi/Blynk'
+08:50:38.623 INFO - Region : local. Host : 10.29.200.64.
+08:50:43.089 INFO - Initializing gmail smtp mail transport. Username : example@gmail.com. SMTP host : smtp.gmail.com:587
+08:50:43.284 INFO - Didn't find custom user certificates.
+08:50:43.296 INFO - Didn't find Let's Encrypt certificates.
+08:50:43.296 WARN - You didn't specified 'server.host' or 'contact.email' properties in server.properties file. Automatic certificate generation is turned off. Please specify above properties for automatic certificates retrieval.
+08:50:43.297 WARN - ATTENTION. Server certificate paths (cert : '/home/pi', key : '/home/pi') not valid. Using embedded server certs and one way ssl. This is not secure. Please replace it with your own certs.
+08:50:47.858 INFO - Hardware plain tcp/ip server listening at 8442 port.
+08:50:47.866 INFO - Hardware SSL server listening at 8441 port.
+08:50:47.870 INFO - Application server listening at 8443 port.
+08:50:47.874 INFO - HTTP API and WebSockets server listening at 8080 port.
+08:50:47.878 INFO - HTTPS API, WebSockets and Admin page server listening at 9443 port.
+08:50:47.881 INFO - Mqtt hardware server listening at 8440 port.
+08:51:02.645 INFO - admin@blynk.cc Blynk-app joined.
+08:51:28.171 INFO - admin@blynk.cc Blynk-app joined.
+08:54:42.646 INFO - admin@blynk.cc Blynk-app joined.
+08:54:54.592 INFO - admin@blynk.cc Blynk-app joined.
+09:03:13.164 INFO - admin@blynk.cc Blynk-app joined.
+09:03:16.591 INFO - admin@blynk.cc Blynk-app joined.
+09:05:08.696 INFO - admin@blynk.cc Blynk-app joined.
+09:10:45.924 INFO - admin@blynk.cc Blynk-app joined.
+09:11:22.814 INFO - admin@blynk.cc Blynk-app joined.
+09:13:47.024 WARN - Hardware not logged. /127.0.0.1:40902. Closing.
+09:17:44.238 INFO - admin@blynk.cc hardware joined.
+09:33:01.072 INFO - admin@blynk.cc Blynk-app joined.
+09:42:45.968 INFO - admin@blynk.cc Blynk-app joined.
+09:43:22.985 INFO - admin@blynk.cc hardware joined.
+09:59:57.145 INFO - admin@blynk.cc Blynk-app joined.
+10:00:00.636 INFO - admin@blynk.cc Blynk-app joined.
+10:05:17.832 INFO - admin@blynk.cc Blynk-app joined.
+10:09:19.932 INFO - admin@blynk.cc Blynk-app joined.
+10:17:57.357 INFO - admin@blynk.cc Blynk-app joined.
+10:34:21.556 INFO - Using data dir '/home/pi/Blynk'
+10:34:25.134 INFO - Region : local. Host : 10.29.200.64.
+10:34:28.242 INFO - Initializing gmail smtp mail transport. Username : example@gmail.com. SMTP host : smtp.gmail.com:587
+10:34:28.411 INFO - Didn't find custom user certificates.
+10:34:28.419 INFO - Didn't find Let's Encrypt certificates.
+10:34:28.419 WARN - You didn't specified 'server.host' or 'contact.email' properties in server.properties file. Automatic certificate generation is turned off. Please specify above properties for automatic certificates retrieval.
+10:34:28.420 WARN - ATTENTION. Server certificate paths (cert : '/home/pi', key : '/home/pi') not valid. Using embedded server certs and one way ssl. This is not secure. Please replace it with your own certs.
+10:34:31.841 INFO - Hardware plain tcp/ip server listening at 8442 port.
+10:34:31.848 INFO - Hardware SSL server listening at 8441 port.
+10:34:31.852 INFO - Application server listening at 8443 port.
+10:34:31.857 INFO - HTTP API and WebSockets server listening at 8080 port.
+10:34:31.862 INFO - HTTPS API, WebSockets and Admin page server listening at 9443 port.
+10:34:31.866 INFO - Mqtt hardware server listening at 8440 port.
+10:34:35.463 INFO - admin@blynk.cc hardware joined.
+10:17:25.857 INFO - Using data dir '/home/pi/Blynk'
+10:17:29.382 INFO - Region : local. Host : eth0.
+10:17:32.377 INFO - Initializing gmail smtp mail transport. Username : example@gmail.com. SMTP host : smtp.gmail.com:587
+10:17:32.516 INFO - Didn't find custom user certificates.
+10:17:32.524 INFO - Didn't find Let's Encrypt certificates.
+10:17:32.525 WARN - You didn't specified 'server.host' or 'contact.email' properties in server.properties file. Automatic certificate generation is turned off. Please specify above properties for automatic certificates retrieval.
+10:17:32.525 WARN - ATTENTION. Server certificate paths (cert : '/home/pi', key : '/home/pi') not valid. Using embedded server certs and one way ssl. This is not secure. Please replace it with your own certs.
+10:17:35.914 INFO - Hardware plain tcp/ip server listening at 8442 port.
+10:17:35.921 INFO - Hardware SSL server listening at 8441 port.
+10:17:35.924 INFO - Application server listening at 8443 port.
+10:17:35.928 INFO - HTTP API and WebSockets server listening at 8080 port.
+10:17:35.931 INFO - HTTPS API, WebSockets and Admin page server listening at 9443 port.
+10:17:35.933 INFO - Mqtt hardware server listening at 8440 port.
+10:18:06.734 INFO - admin@blynk.cc Blynk-app joined.
+10:20:44.094 INFO - admin@blynk.cc Blynk-app joined.
+10:21:02.224 INFO - admin@blynk.cc Blynk-app joined.
+10:22:37.366 INFO - admin@blynk.cc Blynk-app joined.

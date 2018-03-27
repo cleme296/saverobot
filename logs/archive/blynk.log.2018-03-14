@@ -1,0 +1,57 @@
+07:55:01.444 INFO - Region : local. Host : 10.29.200.64.
+07:55:04.398 INFO - Initializing gmail smtp mail transport. Username : example@gmail.com. SMTP host : smtp.gmail.com:587
+07:55:04.550 INFO - Didn't find custom user certificates.
+07:55:04.558 INFO - Didn't find Let's Encrypt certificates.
+07:55:04.558 WARN - You didn't specified 'server.host' or 'contact.email' properties in server.properties file. Automatic certificate generation is turned off. Please specify above properties for automatic certificates retrieval.
+07:55:04.559 WARN - ATTENTION. Server certificate paths (cert : '/home/pi', key : '/home/pi') not valid. Using embedded server certs and one way ssl. This is not secure. Please replace it with your own certs.
+07:55:09.843 INFO - Hardware plain tcp/ip server listening at 8442 port.
+07:55:09.852 INFO - Hardware SSL server listening at 8441 port.
+07:55:09.857 INFO - Application server listening at 8443 port.
+07:55:09.861 INFO - HTTP API and WebSockets server listening at 8080 port.
+07:55:09.864 INFO - HTTPS API, WebSockets and Admin page server listening at 9443 port.
+07:55:09.868 INFO - Mqtt hardware server listening at 8440 port.
+07:56:54.923 INFO - admin@blynk.cc Blynk-app (android-21902) joined.
+07:57:24.074 INFO - admin@blynk.cc Blynk-app (android-21901) joined.
+07:58:21.538 INFO - admin@blynk.cc Blynk-app (android-21901) joined.
+08:02:39.998 INFO - admin@blynk.cc Blynk-app (android-21901) joined.
+08:03:26.008 INFO - admin@blynk.cc hardware joined.
+08:36:20.013 INFO - admin@blynk.cc Blynk-app (android-21902) joined.
+09:42:15.723 INFO - admin@blynk.cc Blynk-app (android-21901) joined.
+09:45:41.314 INFO - admin@blynk.cc hardware joined.
+09:46:14.874 INFO - admin@blynk.cc Blynk-app (android-21902) joined.
+09:47:48.961 INFO - admin@blynk.cc hardware joined.
+09:48:25.693 INFO - admin@blynk.cc hardware joined.
+09:52:13.024 INFO - admin@blynk.cc Blynk-app (android-21902) joined.
+09:53:37.929 INFO - admin@blynk.cc hardware joined.
+09:54:01.198 INFO - admin@blynk.cc hardware joined.
+09:54:09.872 INFO - admin@blynk.cc hardware joined.
+09:54:51.046 INFO - Using data dir '/home/pi/Blynk'
+09:55:04.028 INFO - Region : local. Host : 10.29.200.64.
+09:55:07.053 INFO - Initializing gmail smtp mail transport. Username : example@gmail.com. SMTP host : smtp.gmail.com:587
+09:55:07.208 INFO - Didn't find custom user certificates.
+09:55:07.216 INFO - Didn't find Let's Encrypt certificates.
+09:55:07.217 WARN - You didn't specified 'server.host' or 'contact.email' properties in server.properties file. Automatic certificate generation is turned off. Please specify above properties for automatic certificates retrieval.
+09:55:07.217 WARN - ATTENTION. Server certificate paths (cert : '/home/pi', key : '/home/pi') not valid. Using embedded server certs and one way ssl. This is not secure. Please replace it with your own certs.
+09:55:11.710 INFO - Hardware plain tcp/ip server listening at 8442 port.
+09:55:11.718 INFO - Hardware SSL server listening at 8441 port.
+09:55:11.723 INFO - Application server listening at 8443 port.
+09:55:11.726 INFO - HTTP API and WebSockets server listening at 8080 port.
+09:55:11.729 INFO - HTTPS API, WebSockets and Admin page server listening at 9443 port.
+09:55:11.732 INFO - Mqtt hardware server listening at 8440 port.
+09:55:27.225 INFO - admin@blynk.cc hardware joined.
+09:55:32.431 INFO - admin@blynk.cc Blynk-app (android-21902) joined.
+09:56:27.339 INFO - admin@blynk.cc hardware joined.
+09:56:39.650 INFO - admin@blynk.cc hardware joined.
+09:56:53.337 INFO - admin@blynk.cc hardware joined.
+09:59:01.153 INFO - admin@blynk.cc hardware joined.
+09:59:18.062 INFO - admin@blynk.cc hardware joined.
+10:07:18.512 INFO - admin@blynk.cc hardware joined.
+10:07:54.503 INFO - admin@blynk.cc hardware joined.
+10:14:39.143 INFO - admin@blynk.cc hardware joined.
+10:17:00.689 INFO - admin@blynk.cc hardware joined.
+10:18:21.695 INFO - admin@blynk.cc hardware joined.
+10:31:39.596 INFO - admin@blynk.cc hardware joined.
+10:35:18.098 INFO - admin@blynk.cc hardware joined.
+10:38:00.987 INFO - admin@blynk.cc hardware joined.
+10:38:15.169 INFO - admin@blynk.cc hardware joined.
+10:39:57.406 INFO - Using data dir '/home/pi/Blynk'

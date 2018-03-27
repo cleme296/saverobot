@@ -1,0 +1,131 @@
+08:09:16.070 INFO - Using data dir '/home/pi/Blynk'
+08:09:29.724 INFO - Region : local. Host : 10.29.200.64.
+08:09:32.863 INFO - Initializing gmail smtp mail transport. Username : example@gmail.com. SMTP host : smtp.gmail.com:587
+08:09:33.004 INFO - Didn't find custom user certificates.
+08:09:33.012 INFO - Didn't find Let's Encrypt certificates.
+08:09:33.012 WARN - You didn't specified 'server.host' or 'contact.email' properties in server.properties file. Automatic certificate generation is turned off. Please specify above properties for automatic certificates retrieval.
+08:09:33.013 WARN - ATTENTION. Server certificate paths (cert : '/home/pi', key : '/home/pi') not valid. Using embedded server certs and one way ssl. This is not secure. Please replace it with your own certs.
+08:09:36.174 INFO - Hardware plain tcp/ip server listening at 8442 port.
+08:09:36.182 INFO - Hardware SSL server listening at 8441 port.
+08:09:36.187 INFO - Application server listening at 8443 port.
+08:09:36.192 ERROR- Error initializing HTTP API and WebSockets, port 8080
+java.net.BindException: Adresse déjà utilisée
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:1.8.0_65]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[?:1.8.0_65]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[?:1.8.0_65]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[?:1.8.0_65]
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:128) ~[server-0.29.0-java8.jar:?]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:558) ~[server-0.29.0-java8.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1283) ~[server-0.29.0-java8.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:501) ~[server-0.29.0-java8.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:486) ~[server-0.29.0-java8.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:989) ~[server-0.29.0-java8.jar:?]
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:254) ~[server-0.29.0-java8.jar:?]
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:364) ~[server-0.29.0-java8.jar:?]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163) ~[server-0.29.0-java8.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:403) ~[server-0.29.0-java8.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:463) ~[server-0.29.0-java8.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) ~[server-0.29.0-java8.jar:?]
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138) ~[server-0.29.0-java8.jar:?]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_65]
+08:16:30.945 INFO - Using data dir '/home/pi/Blynk'
+08:16:44.904 INFO - Region : local. Host : 10.29.200.64.
+08:16:47.912 INFO - Initializing gmail smtp mail transport. Username : example@gmail.com. SMTP host : smtp.gmail.com:587
+08:16:48.073 INFO - Didn't find custom user certificates.
+08:16:48.081 INFO - Didn't find Let's Encrypt certificates.
+08:16:48.081 WARN - You didn't specified 'server.host' or 'contact.email' properties in server.properties file. Automatic certificate generation is turned off. Please specify above properties for automatic certificates retrieval.
+08:16:48.082 WARN - ATTENTION. Server certificate paths (cert : '/home/pi', key : '/home/pi') not valid. Using embedded server certs and one way ssl. This is not secure. Please replace it with your own certs.
+08:16:52.420 INFO - Hardware plain tcp/ip server listening at 8442 port.
+08:16:52.428 INFO - Hardware SSL server listening at 8441 port.
+08:16:52.431 INFO - Application server listening at 8443 port.
+08:16:52.437 INFO - HTTP API and WebSockets server listening at 8080 port.
+08:16:52.441 INFO - HTTPS API, WebSockets and Admin page server listening at 9443 port.
+08:16:52.445 INFO - Mqtt hardware server listening at 8440 port.
+08:19:40.206 INFO - Using data dir '/home/pi/Blynk'
+08:19:53.821 INFO - Region : local. Host : 10.29.200.64.
+08:19:58.739 INFO - Initializing gmail smtp mail transport. Username : example@gmail.com. SMTP host : smtp.gmail.com:587
+08:19:58.920 INFO - Didn't find custom user certificates.
+08:19:58.932 INFO - Didn't find Let's Encrypt certificates.
+08:19:58.933 WARN - You didn't specified 'server.host' or 'contact.email' properties in server.properties file. Automatic certificate generation is turned off. Please specify above properties for automatic certificates retrieval.
+08:19:58.934 WARN - ATTENTION. Server certificate paths (cert : '/home/pi', key : '/home/pi') not valid. Using embedded server certs and one way ssl. This is not secure. Please replace it with your own certs.
+08:20:01.777 INFO - Hardware plain tcp/ip server listening at 8442 port.
+08:20:01.785 INFO - Hardware SSL server listening at 8441 port.
+08:20:01.788 INFO - Application server listening at 8443 port.
+08:20:01.792 INFO - HTTP API and WebSockets server listening at 8080 port.
+08:20:01.795 INFO - HTTPS API, WebSockets and Admin page server listening at 9443 port.
+08:20:01.798 INFO - Mqtt hardware server listening at 8440 port.
+08:20:03.474 INFO - admin@blynk.cc hardware joined.
+09:06:57.947 INFO - Using data dir '/home/pi/Blynk'
+09:07:13.961 INFO - Region : local. Host : 10.29.200.64.
+09:07:17.042 INFO - Initializing gmail smtp mail transport. Username : example@gmail.com. SMTP host : smtp.gmail.com:587
+09:07:17.207 INFO - Didn't find custom user certificates.
+09:07:17.215 INFO - Didn't find Let's Encrypt certificates.
+09:07:17.215 WARN - You didn't specified 'server.host' or 'contact.email' properties in server.properties file. Automatic certificate generation is turned off. Please specify above properties for automatic certificates retrieval.
+09:07:17.216 WARN - ATTENTION. Server certificate paths (cert : '/home/pi', key : '/home/pi') not valid. Using embedded server certs and one way ssl. This is not secure. Please replace it with your own certs.
+09:07:20.924 INFO - Hardware plain tcp/ip server listening at 8442 port.
+09:07:20.932 INFO - Hardware SSL server listening at 8441 port.
+09:07:20.951 INFO - Application server listening at 8443 port.
+09:07:20.963 INFO - HTTP API and WebSockets server listening at 8080 port.
+09:07:20.967 INFO - HTTPS API, WebSockets and Admin page server listening at 9443 port.
+09:07:20.972 INFO - Mqtt hardware server listening at 8440 port.
+09:07:51.491 INFO - admin@blynk.cc Blynk-app joined.
+09:10:05.696 INFO - admin@blynk.cc hardware joined.
+09:10:19.230 INFO - admin@blynk.cc Blynk-app joined.
+09:18:48.749 INFO - admin@blynk.cc Blynk-app joined.
+09:22:24.200 INFO - admin@blynk.cc Blynk-app joined.
+09:29:06.561 INFO - admin@blynk.cc Blynk-app joined.
+09:33:13.973 INFO - admin@blynk.cc Blynk-app joined.
+10:08:33.388 INFO - admin@blynk.cc Blynk-app joined.
+10:13:03.939 INFO - admin@blynk.cc Blynk-app joined.
+10:28:28.092 INFO - admin@blynk.cc Blynk-app joined.
+10:30:04.762 INFO - admin@blynk.cc Blynk-app joined.
+10:32:50.836 INFO - admin@blynk.cc Blynk-app joined.
+10:39:13.045 INFO - Using data dir '/home/pi/Blynk'
+10:39:16.591 INFO - Region : local. Host : eth0.
+10:39:19.530 INFO - Initializing gmail smtp mail transport. Username : example@gmail.com. SMTP host : smtp.gmail.com:587
+10:39:19.702 INFO - Didn't find custom user certificates.
+10:39:19.710 INFO - Didn't find Let's Encrypt certificates.
+10:39:19.711 WARN - You didn't specified 'server.host' or 'contact.email' properties in server.properties file. Automatic certificate generation is turned off. Please specify above properties for automatic certificates retrieval.
+10:39:19.711 WARN - ATTENTION. Server certificate paths (cert : '/home/pi', key : '/home/pi') not valid. Using embedded server certs and one way ssl. This is not secure. Please replace it with your own certs.
+10:39:23.603 INFO - Hardware plain tcp/ip server listening at 8442 port.
+10:39:23.611 INFO - Hardware SSL server listening at 8441 port.
+10:39:23.614 INFO - Application server listening at 8443 port.
+10:39:23.617 INFO - HTTP API and WebSockets server listening at 8080 port.
+10:39:23.620 INFO - HTTPS API, WebSockets and Admin page server listening at 9443 port.
+10:39:23.623 INFO - Mqtt hardware server listening at 8440 port.
+10:39:56.359 INFO - admin@blynk.cc hardware joined.
+10:39:10.612 INFO - Using data dir '/home/pi/Blynk'
+10:39:14.162 INFO - Region : local. Host : eth0.
+10:39:17.237 INFO - Initializing gmail smtp mail transport. Username : example@gmail.com. SMTP host : smtp.gmail.com:587
+10:39:17.408 INFO - Didn't find custom user certificates.
+10:39:17.416 INFO - Didn't find Let's Encrypt certificates.
+10:39:17.416 WARN - You didn't specified 'server.host' or 'contact.email' properties in server.properties file. Automatic certificate generation is turned off. Please specify above properties for automatic certificates retrieval.
+10:39:17.417 WARN - ATTENTION. Server certificate paths (cert : '/home/pi', key : '/home/pi') not valid. Using embedded server certs and one way ssl. This is not secure. Please replace it with your own certs.
+10:39:20.623 INFO - Hardware plain tcp/ip server listening at 8442 port.
+10:39:20.631 INFO - Hardware SSL server listening at 8441 port.
+10:39:20.635 INFO - Application server listening at 8443 port.
+10:39:20.640 INFO - HTTP API and WebSockets server listening at 8080 port.
+10:39:20.645 INFO - HTTPS API, WebSockets and Admin page server listening at 9443 port.
+10:39:20.649 INFO - Mqtt hardware server listening at 8440 port.
+10:39:55.497 INFO - admin@blynk.cc hardware joined.
+10:46:21.797 INFO - admin@blynk.cc Blynk-app joined.
+10:50:07.704 INFO - admin@blynk.cc Blynk-app joined.
+10:53:59.584 INFO - admin@blynk.cc hardware joined.
+10:54:04.212 INFO - admin@blynk.cc Blynk-app joined.
+10:56:11.370 INFO - admin@blynk.cc hardware joined.
+10:57:22.319 INFO - admin@blynk.cc hardware joined.
+11:07:01.109 INFO - admin@blynk.cc Blynk-app joined.
+11:17:22.608 INFO - Using data dir '/home/pi/Blynk'
+11:17:26.193 INFO - Region : local. Host : eth0.
+11:17:29.255 INFO - Initializing gmail smtp mail transport. Username : example@gmail.com. SMTP host : smtp.gmail.com:587
+11:17:29.427 INFO - Didn't find custom user certificates.
+11:17:29.435 INFO - Didn't find Let's Encrypt certificates.
+11:17:29.435 WARN - You didn't specified 'server.host' or 'contact.email' properties in server.properties file. Automatic certificate generation is turned off. Please specify above properties for automatic certificates retrieval.
+11:17:29.436 WARN - ATTENTION. Server certificate paths (cert : '/home/pi', key : '/home/pi') not valid. Using embedded server certs and one way ssl. This is not secure. Please replace it with your own certs.
+11:17:32.615 INFO - Hardware plain tcp/ip server listening at 8442 port.
+11:17:32.623 INFO - Hardware SSL server listening at 8441 port.
+11:17:32.626 INFO - Application server listening at 8443 port.
+11:17:32.631 INFO - HTTP API and WebSockets server listening at 8080 port.
+11:17:32.635 INFO - HTTPS API, WebSockets and Admin page server listening at 9443 port.
+11:17:32.638 INFO - Mqtt hardware server listening at 8440 port.
+11:18:08.413 INFO - admin@blynk.cc hardware joined.

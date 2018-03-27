@@ -1,0 +1,216 @@
+13:37:32.456 INFO - admin@blynk.cc Blynk-app joined.
+13:40:11.177 INFO - admin@blynk.cc hardware joined.
+13:40:18.697 INFO - admin@blynk.cc Blynk-app joined.
+13:40:23.941 INFO - admin@blynk.cc Blynk-app joined.
+13:42:06.805 INFO - admin@blynk.cc hardware joined.
+13:42:09.496 INFO - admin@blynk.cc Blynk-app joined.
+13:49:42.734 INFO - admin@blynk.cc Blynk-app joined.
+13:52:43.960 INFO - admin@blynk.cc Blynk-app joined.
+14:34:53.011 INFO - Using data dir '/home/pi/Blynk'
+14:34:56.844 INFO - Region : local. Host : 10.29.200.64.
+14:34:59.954 INFO - Initializing gmail smtp mail transport. Username : example@gmail.com. SMTP host : smtp.gmail.com:587
+14:35:00.365 INFO - Didn't find custom user certificates.
+14:35:00.374 INFO - Didn't find Let's Encrypt certificates.
+14:35:00.374 WARN - You didn't specified 'server.host' or 'contact.email' properties in server.properties file. Automatic certificate generation is turned off. Please specify above properties for automatic certificates retrieval.
+14:35:00.375 WARN - ATTENTION. Server certificate paths (cert : '/home/pi', key : '/home/pi') not valid. Using embedded server certs and one way ssl. This is not secure. Please replace it with your own certs.
+14:35:03.147 INFO - Hardware plain tcp/ip server listening at 8442 port.
+14:35:03.156 INFO - Hardware SSL server listening at 8441 port.
+14:35:03.160 INFO - Application server listening at 8443 port.
+14:35:03.164 INFO - HTTP API and WebSockets server listening at 8080 port.
+14:35:03.168 INFO - HTTPS API, WebSockets and Admin page server listening at 9443 port.
+14:35:03.172 INFO - Mqtt hardware server listening at 8440 port.
+14:35:11.261 INFO - admin@blynk.cc hardware joined.
+14:40:54.976 INFO - admin@blynk.cc Blynk-app joined.
+14:49:03.834 INFO - admin@blynk.cc Blynk-app joined.
+14:54:27.614 INFO - Using data dir '/home/pi/Blynk'
+14:54:42.138 INFO - Region : local. Host : 10.29.200.64.
+14:54:45.258 INFO - Initializing gmail smtp mail transport. Username : example@gmail.com. SMTP host : smtp.gmail.com:587
+14:54:45.401 INFO - Didn't find custom user certificates.
+14:54:45.410 INFO - Didn't find Let's Encrypt certificates.
+14:54:45.410 WARN - You didn't specified 'server.host' or 'contact.email' properties in server.properties file. Automatic certificate generation is turned off. Please specify above properties for automatic certificates retrieval.
+14:54:45.410 WARN - ATTENTION. Server certificate paths (cert : '/home/pi', key : '/home/pi') not valid. Using embedded server certs and one way ssl. This is not secure. Please replace it with your own certs.
+14:54:49.422 INFO - Hardware plain tcp/ip server listening at 8442 port.
+14:54:49.430 INFO - Hardware SSL server listening at 8441 port.
+14:54:49.434 INFO - Application server listening at 8443 port.
+14:54:49.439 ERROR- Error initializing HTTP API and WebSockets, port 8080
+java.net.BindException: Adresse déjà utilisée
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:1.8.0_65]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[?:1.8.0_65]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[?:1.8.0_65]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[?:1.8.0_65]
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:128) ~[server-0.29.0-java8.jar:?]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:558) ~[server-0.29.0-java8.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1283) ~[server-0.29.0-java8.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:501) ~[server-0.29.0-java8.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:486) ~[server-0.29.0-java8.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:989) ~[server-0.29.0-java8.jar:?]
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:254) ~[server-0.29.0-java8.jar:?]
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:364) ~[server-0.29.0-java8.jar:?]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163) ~[server-0.29.0-java8.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:403) ~[server-0.29.0-java8.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:463) ~[server-0.29.0-java8.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) ~[server-0.29.0-java8.jar:?]
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138) ~[server-0.29.0-java8.jar:?]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_65]
+14:54:56.243 INFO - admin@blynk.cc hardware joined.
+14:55:43.625 INFO - admin@blynk.cc hardware joined.
+15:18:18.480 INFO - Using data dir '/home/pi/Blynk'
+15:18:22.306 INFO - Region : local. Host : 10.29.200.64.
+15:18:29.049 INFO - Initializing gmail smtp mail transport. Username : example@gmail.com. SMTP host : smtp.gmail.com:587
+15:18:29.214 INFO - Didn't find custom user certificates.
+15:18:29.222 INFO - Didn't find Let's Encrypt certificates.
+15:18:29.223 WARN - You didn't specified 'server.host' or 'contact.email' properties in server.properties file. Automatic certificate generation is turned off. Please specify above properties for automatic certificates retrieval.
+15:18:29.223 WARN - ATTENTION. Server certificate paths (cert : '/home/pi', key : '/home/pi') not valid. Using embedded server certs and one way ssl. This is not secure. Please replace it with your own certs.
+15:18:34.031 INFO - Hardware plain tcp/ip server listening at 8442 port.
+15:18:34.040 INFO - Hardware SSL server listening at 8441 port.
+15:18:34.044 INFO - Application server listening at 8443 port.
+15:18:34.049 ERROR- Error initializing HTTP API and WebSockets, port 8080
+java.net.BindException: Adresse déjà utilisée
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:1.8.0_65]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[?:1.8.0_65]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[?:1.8.0_65]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[?:1.8.0_65]
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:128) ~[server-0.29.0-java8.jar:?]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:558) ~[server-0.29.0-java8.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1283) ~[server-0.29.0-java8.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:501) ~[server-0.29.0-java8.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:486) ~[server-0.29.0-java8.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:989) ~[server-0.29.0-java8.jar:?]
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:254) ~[server-0.29.0-java8.jar:?]
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:364) ~[server-0.29.0-java8.jar:?]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163) ~[server-0.29.0-java8.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:403) ~[server-0.29.0-java8.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:463) ~[server-0.29.0-java8.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) ~[server-0.29.0-java8.jar:?]
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138) ~[server-0.29.0-java8.jar:?]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_65]
+15:20:33.132 INFO - Using data dir '/home/pi/Blynk'
+15:20:39.276 INFO - Region : local. Host : 10.29.200.64.
+15:20:42.298 INFO - Initializing gmail smtp mail transport. Username : example@gmail.com. SMTP host : smtp.gmail.com:587
+15:20:42.463 INFO - Didn't find custom user certificates.
+15:20:42.471 INFO - Didn't find Let's Encrypt certificates.
+15:20:42.471 WARN - You didn't specified 'server.host' or 'contact.email' properties in server.properties file. Automatic certificate generation is turned off. Please specify above properties for automatic certificates retrieval.
+15:20:42.472 WARN - ATTENTION. Server certificate paths (cert : '/home/pi', key : '/home/pi') not valid. Using embedded server certs and one way ssl. This is not secure. Please replace it with your own certs.
+15:20:45.170 INFO - Hardware plain tcp/ip server listening at 8442 port.
+15:20:45.178 INFO - Hardware SSL server listening at 8441 port.
+15:20:45.181 INFO - Application server listening at 8443 port.
+15:20:45.187 ERROR- Error initializing HTTP API and WebSockets, port 8080
+java.net.BindException: Adresse déjà utilisée
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:1.8.0_65]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[?:1.8.0_65]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[?:1.8.0_65]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[?:1.8.0_65]
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:128) ~[server-0.29.0-java8.jar:?]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:558) ~[server-0.29.0-java8.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1283) ~[server-0.29.0-java8.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:501) ~[server-0.29.0-java8.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:486) ~[server-0.29.0-java8.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:989) ~[server-0.29.0-java8.jar:?]
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:254) ~[server-0.29.0-java8.jar:?]
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:364) ~[server-0.29.0-java8.jar:?]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163) ~[server-0.29.0-java8.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:403) ~[server-0.29.0-java8.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:463) ~[server-0.29.0-java8.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) ~[server-0.29.0-java8.jar:?]
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138) ~[server-0.29.0-java8.jar:?]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_65]
+15:20:21.088 INFO - Using data dir '/home/pi/Blynk'
+15:28:20.328 INFO - Region : local. Host : 10.29.200.64.
+15:28:24.033 INFO - Initializing gmail smtp mail transport. Username : example@gmail.com. SMTP host : smtp.gmail.com:587
+15:28:24.199 INFO - Didn't find custom user certificates.
+15:28:24.207 INFO - Didn't find Let's Encrypt certificates.
+15:28:24.208 WARN - You didn't specified 'server.host' or 'contact.email' properties in server.properties file. Automatic certificate generation is turned off. Please specify above properties for automatic certificates retrieval.
+15:28:24.208 WARN - ATTENTION. Server certificate paths (cert : '/home/pi', key : '/home/pi') not valid. Using embedded server certs and one way ssl. This is not secure. Please replace it with your own certs.
+15:28:27.905 INFO - Hardware plain tcp/ip server listening at 8442 port.
+15:28:27.913 INFO - Hardware SSL server listening at 8441 port.
+15:28:27.917 INFO - Application server listening at 8443 port.
+15:28:27.922 ERROR- Error initializing HTTP API and WebSockets, port 8080
+java.net.BindException: Adresse déjà utilisée
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:1.8.0_65]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[?:1.8.0_65]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[?:1.8.0_65]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[?:1.8.0_65]
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:128) ~[server-0.29.0-java8.jar:?]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:558) ~[server-0.29.0-java8.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1283) ~[server-0.29.0-java8.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:501) ~[server-0.29.0-java8.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:486) ~[server-0.29.0-java8.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:989) ~[server-0.29.0-java8.jar:?]
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:254) ~[server-0.29.0-java8.jar:?]
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:364) ~[server-0.29.0-java8.jar:?]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163) ~[server-0.29.0-java8.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:403) ~[server-0.29.0-java8.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:463) ~[server-0.29.0-java8.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) ~[server-0.29.0-java8.jar:?]
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138) ~[server-0.29.0-java8.jar:?]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_65]
+15:37:24.744 INFO - Using data dir '/home/pi/Blynk'
+15:37:33.369 INFO - Region : local. Host : 10.29.200.64.
+15:37:36.578 INFO - Initializing gmail smtp mail transport. Username : example@gmail.com. SMTP host : smtp.gmail.com:587
+15:37:36.728 INFO - Didn't find custom user certificates.
+15:37:36.738 INFO - Didn't find Let's Encrypt certificates.
+15:37:36.738 WARN - You didn't specified 'server.host' or 'contact.email' properties in server.properties file. Automatic certificate generation is turned off. Please specify above properties for automatic certificates retrieval.
+15:37:36.739 WARN - ATTENTION. Server certificate paths (cert : '/home/pi', key : '/home/pi') not valid. Using embedded server certs and one way ssl. This is not secure. Please replace it with your own certs.
+15:37:41.124 INFO - Hardware plain tcp/ip server listening at 8442 port.
+15:37:41.134 INFO - Hardware SSL server listening at 8441 port.
+15:37:41.137 INFO - Application server listening at 8443 port.
+15:37:41.142 ERROR- Error initializing HTTP API and WebSockets, port 8080
+java.net.BindException: Adresse déjà utilisée
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:1.8.0_65]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[?:1.8.0_65]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[?:1.8.0_65]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[?:1.8.0_65]
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:128) ~[server-0.29.0-java8.jar:?]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:558) ~[server-0.29.0-java8.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1283) ~[server-0.29.0-java8.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:501) ~[server-0.29.0-java8.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:486) ~[server-0.29.0-java8.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:989) ~[server-0.29.0-java8.jar:?]
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:254) ~[server-0.29.0-java8.jar:?]
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:364) ~[server-0.29.0-java8.jar:?]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163) ~[server-0.29.0-java8.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:403) ~[server-0.29.0-java8.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:463) ~[server-0.29.0-java8.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) ~[server-0.29.0-java8.jar:?]
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138) ~[server-0.29.0-java8.jar:?]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_65]
+15:37:45.909 INFO - admin@blynk.cc Blynk-app joined.
+15:39:36.852 INFO - admin@blynk.cc Blynk-app joined.
+15:41:44.548 INFO - admin@blynk.cc hardware joined.
+15:44:15.764 INFO - admin@blynk.cc Blynk-app joined.
+15:54:25.844 INFO - admin@blynk.cc Blynk-app joined.
+15:55:30.578 INFO - admin@blynk.cc Blynk-app joined.
+15:56:51.609 INFO - admin@blynk.cc Blynk-app joined.
+16:05:41.501 INFO - admin@blynk.cc Blynk-app joined.
+16:15:16.287 INFO - admin@blynk.cc Blynk-app joined.
+16:16:13.154 INFO - admin@blynk.cc Blynk-app joined.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      16:17:23.260 INFO - Using data dir '/home/pi/Blynk'
+16:17:26.751 INFO - Region : local. Host : eth0.
+16:17:29.704 INFO - Initializing gmail smtp mail transport. Username : example@gmail.com. SMTP host : smtp.gmail.com:587
+16:17:29.875 INFO - Didn't find custom user certificates.
+16:17:29.886 INFO - Didn't find Let's Encrypt certificates.
+16:17:29.886 WARN - You didn't specified 'server.host' or 'contact.email' properties in server.properties file. Automatic certificate generation is turned off. Please specify above properties for automatic certificates retrieval.
+16:17:29.886 WARN - ATTENTION. Server certificate paths (cert : '/home/pi', key : '/home/pi') not valid. Using embedded server certs and one way ssl. This is not secure. Please replace it with your own certs.
+16:17:34.291 INFO - Hardware plain tcp/ip server listening at 8442 port.
+16:17:34.299 INFO - Hardware SSL server listening at 8441 port.
+16:17:34.303 INFO - Application server listening at 8443 port.
+16:17:34.307 ERROR- Error initializing HTTP API and WebSockets, port 8080
+java.net.BindException: Adresse déjà utilisée
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:1.8.0_65]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[?:1.8.0_65]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[?:1.8.0_65]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[?:1.8.0_65]
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:128) ~[server-0.29.0-java8.jar:?]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:558) ~[server-0.29.0-java8.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1283) ~[server-0.29.0-java8.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:501) ~[server-0.29.0-java8.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:486) ~[server-0.29.0-java8.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:989) ~[server-0.29.0-java8.jar:?]
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:254) ~[server-0.29.0-java8.jar:?]
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:364) ~[server-0.29.0-java8.jar:?]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163) ~[server-0.29.0-java8.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:403) ~[server-0.29.0-java8.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:463) ~[server-0.29.0-java8.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) ~[server-0.29.0-java8.jar:?]
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138) ~[server-0.29.0-java8.jar:?]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_65]

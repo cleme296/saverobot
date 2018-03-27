@@ -1,0 +1,13 @@
+06:55:13.868 INFO - Region : local. Host : 10.29.200.64.
+06:55:16.725 INFO - Initializing gmail smtp mail transport. Username : example@gmail.com. SMTP host : smtp.gmail.com:587
+06:55:16.880 INFO - Didn't find custom user certificates.
+06:55:16.889 INFO - Didn't find Let's Encrypt certificates.
+06:55:16.889 WARN - You didn't specified 'server.host' or 'contact.email' properties in server.properties file. Automatic certificate generation is turned off. Please specify above properties for automatic certificates retrieval.
+06:55:16.890 WARN - ATTENTION. Server certificate paths (cert : '/home/pi', key : '/home/pi') not valid. Using embedded server certs and one way ssl. This is not secure. Please replace it with your own certs.
+06:55:23.472 INFO - Hardware plain tcp/ip server listening at 8442 port.
+06:55:23.480 INFO - Hardware SSL server listening at 8441 port.
+06:55:23.485 INFO - Application server listening at 8443 port.
+06:55:23.488 INFO - HTTP API and WebSockets server listening at 8080 port.
+06:55:23.492 INFO - HTTPS API, WebSockets and Admin page server listening at 9443 port.
+06:55:23.494 INFO - Mqtt hardware server listening at 8440 port.
+11:26:01.148 INFO - Using data dir '/home/pi/Blynk'

@@ -1,0 +1,40 @@
+15:17:37.266 INFO - Region : local. Host : 10.29.200.64.
+15:17:44.276 INFO - Initializing gmail smtp mail transport. Username : example@gmail.com. SMTP host : smtp.gmail.com:587
+15:17:44.427 INFO - Didn't find custom user certificates.
+15:17:44.436 INFO - Didn't find Let's Encrypt certificates.
+15:17:44.436 WARN - You didn't specified 'server.host' or 'contact.email' properties in server.properties file. Automatic certificate generation is turned off. Please specify above properties for automatic certificates retrieval.
+15:17:44.436 WARN - ATTENTION. Server certificate paths (cert : '/home/pi', key : '/home/pi') not valid. Using embedded server certs and one way ssl. This is not secure. Please replace it with your own certs.
+15:17:49.247 INFO - Hardware plain tcp/ip server listening at 8442 port.
+15:17:49.255 INFO - Hardware SSL server listening at 8441 port.
+15:17:49.259 INFO - Application server listening at 8443 port.
+15:17:49.262 INFO - HTTP API and WebSockets server listening at 8080 port.
+15:17:49.265 INFO - HTTPS API, WebSockets and Admin page server listening at 9443 port.
+15:17:49.269 INFO - Mqtt hardware server listening at 8440 port.
+16:08:58.989 INFO - admin@blynk.cc hardware joined.
+16:09:19.174 INFO - admin@blynk.cc Blynk-app (android-21902) joined.
+16:12:06.610 INFO - admin@blynk.cc Blynk-app (android-21902) joined.
+16:14:40.553 INFO - admin@blynk.cc hardware joined.
+16:40:18.934 INFO - admin@blynk.cc Blynk-app (android-21902) joined.
+16:41:03.214 INFO - admin@blynk.cc hardware joined.
+16:43:45.795 INFO - admin@blynk.cc Blynk-app (android-21902) joined.
+16:47:25.495 INFO - admin@blynk.cc Blynk-app (android-21902) joined.
+17:17:22.668 INFO - Using data dir '/home/pi/Blynk'
+17:17:26.259 INFO - Region : local. Host : 10.29.200.64.
+17:25:50.693 INFO - Initializing gmail smtp mail transport. Username : example@gmail.com. SMTP host : smtp.gmail.com:587
+17:25:50.847 INFO - Didn't find custom user certificates.
+17:25:50.855 INFO - Didn't find Let's Encrypt certificates.
+17:25:50.856 WARN - You didn't specified 'server.host' or 'contact.email' properties in server.properties file. Automatic certificate generation is turned off. Please specify above properties for automatic certificates retrieval.
+17:25:50.856 WARN - ATTENTION. Server certificate paths (cert : '/home/pi', key : '/home/pi') not valid. Using embedded server certs and one way ssl. This is not secure. Please replace it with your own certs.
+17:25:54.711 INFO - Hardware plain tcp/ip server listening at 8442 port.
+17:25:54.718 INFO - Hardware SSL server listening at 8441 port.
+17:25:54.722 INFO - Application server listening at 8443 port.
+17:25:54.725 INFO - HTTP API and WebSockets server listening at 8080 port.
+17:25:54.728 INFO - HTTPS API, WebSockets and Admin page server listening at 9443 port.
+17:25:54.731 INFO - Mqtt hardware server listening at 8440 port.
+17:33:31.622 INFO - admin@blynk.cc hardware joined.
+17:33:58.421 INFO - admin@blynk.cc Blynk-app (android-21902) joined.
+17:43:09.272 INFO - admin@blynk.cc Blynk-app (android-21902) joined.
+17:43:29.710 INFO - admin@blynk.cc hardware joined.
+17:43:33.521 INFO - admin@blynk.cc Blynk-app (android-21902) joined.
+17:53:45.652 INFO - admin@blynk.cc Blynk-app (android-21902) joined.
+17:54:38.165 INFO - Using data dir '/home/pi/Blynk'

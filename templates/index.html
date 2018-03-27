@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>GCP</title>
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+</head>
+<body>
+  <nav class="light-blue lighten-1" role="navigation">
+    <div class="nav-wrapper container">
+	<a id="logo-container" href="/" class="brand-logo center">GPIO CONTROL PANEL</a>
+	</div>
+  </nav>
+  <div class="section no-pad-bot center" id="index-banner">
+    <div class="container">
+      <br><br>
+      <h1 class="header orange-text">Choisissez votre GPIO.</h1>
+    </div>
+
+<ul class="collapsible popout" data-collapsible="expendable">
+    {% for pin in pins %}
+  <li>
+    <div class="collapsible-header">
+      <i class="material-icons">chevron_right</i>
+      {{ pins[pin].name }}
+      {% if pins[pin].state == true %}
+      <span class="new badge green" data-badge-caption="">on</span></div>
+    <div class="collapsible-body">
+		<a href="/{{pin}}/off" class="btn-floating btn-large waves-effect waves-red red z-depth-3">
+			<i class="material-icons">power_settings_new</i>
+		</a>
+	</div>
+    {% else %}
+    <span class="new badge red" data-badge-caption="">off</span></div>
+	<div class="collapsible-body"> 
+		<a href="/{{pin}}/on" class="btn-floating btn-large waves-effect waves-green green z-depth-3">
+			<i class="material-icons">power_settings_new</i>
+		</a>
+	</div>
+  </li>
+	{% endif %}
+	{% endfor %}
+  <footer class="page-footer orange">
+    <div class="footer-copyright">
+      <div class="container right-align">
+      Made by <a class="orange-text text-lighten-3" href="http://cleme296.github.io/">Équipe blanche</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+  </body>
+</html>

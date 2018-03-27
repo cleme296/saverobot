@@ -1,0 +1,12 @@
+12:36:27.771 INFO - Region : local. Host : 10.29.200.64.
+12:36:30.655 INFO - Initializing gmail smtp mail transport. Username : example@gmail.com. SMTP host : smtp.gmail.com:587
+12:36:30.807 INFO - Didn't find custom user certificates.
+12:36:30.815 INFO - Didn't find Let's Encrypt certificates.
+12:36:30.815 WARN - You didn't specified 'server.host' or 'contact.email' properties in server.properties file. Automatic certificate generation is turned off. Please specify above properties for automatic certificates retrieval.
+12:36:30.816 WARN - ATTENTION. Server certificate paths (cert : '/home/pi', key : '/home/pi') not valid. Using embedded server certs and one way ssl. This is not secure. Please replace it with your own certs.
+12:36:33.897 INFO - Hardware plain tcp/ip server listening at 8442 port.
+12:36:33.905 INFO - Hardware SSL server listening at 8441 port.
+12:36:33.910 INFO - Application server listening at 8443 port.
+12:36:33.913 INFO - HTTP API and WebSockets server listening at 8080 port.
+12:36:33.917 INFO - HTTPS API, WebSockets and Admin page server listening at 9443 port.
+12:36:33.921 INFO - Mqtt hardware server listening at 8440 port.
